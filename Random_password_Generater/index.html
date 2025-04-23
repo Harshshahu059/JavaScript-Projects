@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="card">
+    <p id="para">Generate a</p>
+
+    <div id="randomtext">Random Password</div>
+
+    <div id="line"></div>
+
+    <div id="output">
+      <input 
+       type="text"
+       id="input" 
+       placeholder="Password"
+       readonly
+       />
+      <img src="copy.png" id="copyimg" onclick="copypassword();" />
+    </div>
+
+    <div id="generatebtn">
+      <button id="button" onclick="generatepass();">
+        <img src="generate.png" id="generateimg" alt="Generate Icon" />
+        Generate Password
+      </button>
+    </div>
+
+    <div id="refers">
+      <button id="refersbtn" onclick="refersh();">Refresh</button>
+    </div>
+
+    <h3 id="name">
+      <b><i>Developed by</i> 亗 ᎻᎯᏒᏕᎻ࿐</b>
+    </h3>
+  </div>
+
+  <script src="scrpit.js"></script>
+</body>
+</html>

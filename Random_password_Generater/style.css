@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #022e49;
+    padding-top: 1rem;
+}
+
+#card {
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 30vh;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+#para {
+    display: block;
+    font-size: 30px;
+}
+
+#randomtext {
+    color: green;  
+    padding: 5px;
+    font-size: 32px;
+}
+
+#line {
+    height: 4px;
+    width: 330px;
+    background-color: green;
+}
+
+#output {
+    background-color: #fff;
+    width: 20em;
+    height: 3rem;
+    margin: 8px 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#input {
+    margin-left: 0.3rem;
+    width: 19em;
+    height: 2rem;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+#copyimg {
+    width: 1.5rem;
+    margin-right: 1rem;
+    background-color: aliceblue;
+}
+
+#generateimg {
+    width: 1rem;
+    height: 1.5rem;
+}
+
+#button {
+    width: 10rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#refers {
+    margin-top: 30px;
+    background-color: #fff;
+    width: 70px;
+    border-radius: 10px;
+}
+
+#refersbtn {
+    width: 70px;
+    border-radius: 10px;
+    background-color: green;
+    border: none;
+    height: 20px;
+}
+
+#name {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    #card {
+        margin: 5vh auto;
+        height: auto;
+        width: 90%;
+    }
+
+    #output {
+        width: 100%;
+    }
+
+    #input {
+        width: 85%;
+    }
+
+    #line {
+        width: 100%;
+        max-width: 330px;
+    }
+
+    #button {
+        width: 100%;
+        max-width: 10rem;
+    }
+}
