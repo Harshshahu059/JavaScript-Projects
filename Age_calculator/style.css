@@ -1,0 +1,81 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Poppins',sans-serif;
+box-sizing: border-box;
+}
+body{
+background-color: #022e49;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 50vh;
+color: #fff;
+padding-left: 10px;
+}
+#result{
+color: yellow;
+}
+
+#javascrpit{
+font-size: 40px;
+margin-top: 10px;
+
+}
+#agecal{
+font-size: 40px;
+color: yellow;
+margin-top: 12px;
+}
+#contener{
+background-color: #ffffff55;
+width: 300px;
+height: 60px;
+margin-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+}
+#inputarea{
+background-color:#faf7f7;
+margin-right: 10px;
+width: 200px;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 30px;
+width: 200px;
+}
+#inputarea inputdata::-webkit-calender-picker-indicator{
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+width: auto;
+height: auto;
+position: absolute;
+background-position: calc(100%-10px);
+background-size: 30px;
+cursor: pointer;
+}
+#inputdata{
+border: transparent;
+outline: none;
+width: 100px;
+
+}
+
+#button{
+width: 70px;
+height: 30px;
+background-color: yellow;
+border: transparent;
+border-radius: 3px;
+
+}
+#result{
+margin-top: 30px;
+font-size:1.2rem;
+}
