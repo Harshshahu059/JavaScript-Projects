@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  body {
+    background-color: #bbc6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  
+  #card {
+    background-color: #fff;
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  #heading {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  #hr {
+    background-color: rgb(66, 129, 255);
+    width: 40px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+  }
+  
+  #quote {
+    margin: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  #author {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  
+  #button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .btn {
+    width: 100px;
+    border-radius: 20px;
+    height: 35px;
+    border: transparent;
+    background-color: rgb(23, 124, 229);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #btn2 {
+    background-color: #fff;
+    color: black;
+    border: 1px solid rgb(23, 124, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 500px) {
+    #card {
+      padding: 0.8rem;
+    }
+  
+    #quote {
+      font-size: 1rem;
+    }
+  
+    #button {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .btn {
+      width: 80%;
+      max-width: 200px;
+    }
+  }
+  
