@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+            <div id="user">
+                <input type="text" value="" id="userinput">
+            </div>
+            <div id="inputarea">
+            <div>
+                <input type="button" value="AC" class="inputnum" onclick="remove()">
+                <input type="button" value="DE" class="inputnum" onclick="deletelast()">
+                <input type="button" value="." class="inputnum" onclick="calculate(this)">
+                <input type="button" value="/" class="inputnum" onclick="calculate(this)" >
+
+            </div>
+            <div>
+                <input type="button" value="7"  onclick="calculate(this)">
+                <input type="button" value="8"  onclick="calculate(this)">
+                <input type="button" value="9" onclick="calculate(this)">
+                <input type="button" value="*" class="inputnum" onclick="calculate(this)">
+
+            </div>
+            <div>
+                <input type="button" value="6" onclick="calculate(this)">
+                <input type="button" value="5"  onclick="calculate(this)">
+                <input type="button" value="4" onclick="calculate(this)">
+                <input type="button" value="-" class="inputnum" onclick="calculate(this)">
+            </div>
+            <div>
+                <input type="button" value="3"  onclick="calculate(this)">
+                <input type="button" value="2"  onclick="calculate(this)">
+                <input type="button" value="1"  onclick="calculate(this)">
+                <input type="button" value="+" class="inputnum"onclick="calculate(this)">
+            </div>
+            <div>
+                <input type="button" value="00"  onclick="calculate(this)">
+                <input type="button" value="0" onclick="calculate(this)">
+                <input type="button" value="=" class="inputnum" id="equal" >
+            </div>
+        </div>
+        <p class="inputnum" id="para">......Developed by harsh</p>
+
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
