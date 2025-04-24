@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+  <div id="card" class="none">
+
+    <!-- Logo Area -->
+    <div id="logoarea">
+      <i id="logo">
+        <div id="img"></div>
+      </i>
+    </div>
+
+    <!-- Main Content -->
+    <div id="content">
+      
+      <!-- Info Labels -->
+      <div id="info">
+        <p>Full Name</p>
+        <p>Phone No.</p>
+        <p>Email Id</p>
+        <p id="para">Your Message</p>
+      </div>
+
+      <!-- Input Fields -->
+      <div id="inputarea">
+        <input type="text" placeholder="Enter your name" id="text-input" onkeyup="validate()" />
+        <span class="name-error" id="span"></span>
+
+        <input type="number" placeholder="Enter phone number" id="num-input" onkeyup="validate()" />
+        <span id="error-num" class="num-error"></span>
+
+        <input type="email" placeholder="Enter Email" id="email-input" onkeyup="validate()" />
+        <span id="error-email" class="email-error"></span>
+
+        <textarea name="Message" id="usermsg" placeholder="Enter your Message" onkeyup="validate()"></textarea>
+        <span class="msg-error" id="error-msg"></span>
+      </div>
+
+    </div>
+
+    <!-- Message Display -->
+    <div id="msg"></div>
+
+    <!-- Submit Button -->
+    <div id="submit">
+      <p id="validatemsg"></p>
+      <button id="btn" type="submit" onclick="submit()">Submit</button>
+    </div>
+
+    <!-- Popup Message -->
+    <div id="card-pop" class="popu">
+      <i class="fa-solid fa-check" id="logo-pop"></i>
+      <p id="msg-pop">Thank You!</p>
+      <p id="para-pop">Your details have been successfully submitted. Thanks!</p>
+      <p id="name-pop"></p>
+    </div>
+
+</div>
+<div id="harsh"><i>Developed by  </i> 亗 ᎻᎯᏒᏕᎻ࿐ </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

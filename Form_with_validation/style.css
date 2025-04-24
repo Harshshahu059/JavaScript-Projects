@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppie';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(1, 1, 70);
+}
+#logoarea{
+    display: flex;
+    justify-content: center;      
+   
+}
+
+
+#logo{
+    position: absolute;
+    top: -25px;
+    background-color: #fff;
+    border: transparent;
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 15px 15px rgba(0,0,0,0.3); 
+   
+}
+#img{
+    background-image: url(paper-plane.jpg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+#card{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#content{
+    display: flex;
+}
+#info{
+    font-family: 'Poppie',sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;   
+    height: 170px;
+    margin: 55px 0px 0px 20px;   
+    width: 95px;
+       
+}
+#info p{
+    margin-bottom: 29px;
+}
+#inputarea{
+    display: flex;
+    flex-direction: column;    
+    height: 250px;
+    margin-top: 40px; 
+    width: 200px;
+    position: relative;
+   
+       
+}
+input{
+    border: none;
+    text-align: start;
+    height: 44px;
+    border-bottom: 1px solid;
+    outline: none;
+
+   
+}
+
+#para{
+    height: 30px;
+    margin-top: 20px;
+}
+#usermsg{
+    margin-top: 13px;
+    height: 80px;
+    overflow: hidden;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+.name-error{
+    position: absolute;   
+    top: 20px;
+    right: 0px;
+    font-size: 12px;
+    color: rgb(236, 4, 4);
+}
+.num-error{
+    position: absolute;   
+    top: 70px;
+    right: 0px;
+    font-size: 12px;
+    color: rgb(236, 4, 4);
+}
+.email-error{
+    position: absolute;   
+    top: 115px;
+    right: 0px;
+    font-size: 12px;
+    color: rgb(236, 4, 4);
+}
+.msg-error{
+    position: absolute;   
+    top: 210px;
+    right: 5px;
+    font-size: 12px;
+    color: rgb(236, 4, 4);
+}
+.num-error-done{
+    background-image: url(ok.webp);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    top: 60px; 
+    position: absolute;   
+    top: 70px;
+    right: 0px;
+    font-size: 12px;
+    color: rgb(236, 4, 4); 
+
+}
+
+.email-error-done{
+    background-image: url(ok.webp);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    top: 105px;    
+    position: absolute;   
+    top: 115px;
+    right: 0px;
+    font-size: 12px;
+    color: rgb(236, 4, 4);
+}
+.msg-error-done{
+    background-image: url(ok.webp);
+    background-size: cover;
+    width: 20px;
+    height: 20px;  
+    position: absolute;   
+    top: 200px;
+    right: 0px;
+    font-size: 12px;
+    color: rgb(236, 4, 4);
+}
+
+.name-error-done{
+    position: absolute;   
+    top: 20px;
+    right: 0px;
+    font-size: 12px;
+    color: rgb(236, 4, 4);
+    background-image: url(ok.webp);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    top: 15px; 
+
+}
+
+.remove{
+    visibility: hidden;
+    
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    position: relative;
+}
+#btn{
+    background-color: black;
+    color: #fff;
+    width: 120px;
+    border-radius:10px ;
+
+}
+#validatemsg{
+    position:absolute;
+   left: 13px;
+   top: 35px;
+   color: red;
+ 
+
+}
+
+
+#card-pop{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    background-color: #fff;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transform: translateY(-440px) scale(0.1);
+   
+}
+.popu{
+    visibility: hidden;
+}
+.popup{
+    visibility: visible;
+    animation: down 0.5s linear forwards;
+}
+@keyframes down{
+    100%{
+        transform: translateY(0) scale(1);
+    }
+}
+#logo-pop{
+    background-color: rgb(26, 210, 5);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: -60px;
+    font-size: 30px;
+    color: #fff;
+}
+#msg-pop{
+    font-size: 25px;
+    color: black;
+    margin-top: 20px;
+}
+#para-pop{  
+    text-align: center;
+    font-size: 10px;
+    width: 200px;
+    margin: 15px;
+}
+#btn-pop{
+    width: 200px;
+   background-color:  rgb(26, 210, 5);
+   border: transparent;
+   outline: transparent;
+   color:#fff;
+   height: 30px;
+   margin-top: 10px;
+   border-radius:5px;
+   box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+}
+#name-pop{
+    width: 200px;
+   background-color:  rgb(26, 210, 5);
+   border: transparent;
+   outline: transparent;
+   color:#fff;
+   height: 30px;
+   margin-top: 10px;
+   border-radius:5px;
+   box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#harsh{
+    color: #fff;
+    position: absolute;
+    bottom: 10vh;
+}
